@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Mero Bazar</title>
+    <link rel="stylesheet" href="css/cart.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="nav2">
+        <div class="logo">
+          <h2>
+            <a href="index.html"><img src="image/name.png" alt="" /></a>
+          </h2>
+        </div>
+        <div>
+          <input type="text" placeholder="search" class="searchbox" />
+          <button class="button">search</button>
+        </div>
+
+        <div class="nav-comp">
+          <a href="index.html">Home</a>
+          <a href="cart.html">Cart 🛒</a>
+          <a href="login-signup.html">Login Signup</a>
+        </div>
+      </div>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="cart-container">
+            <div class="cart-items">
+                <div class="select-all">
+                    <input type="checkbox" id="selectAll">
+                    <label for="selectAll">Select all (2 item(s))</label>
+                    <button class="delete-btn"><i class="fas fa-trash"></i> Delete</button>
+                </div>
+
+                <div class="store-section">
+                    <div class="store-header">
+                        <input type="checkbox">
+                        <i class="fas fa-store"></i>
+                        <span>Desire Online Shopping</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+
+                    <!-- Cart Item -->
+                    <div class="cart-item">
+                        <input type="checkbox">
+                        <img src="image/photo3.png" alt="Baby Led Light Ear Cleaner">
+                        <div class="item-details">
+                            <h3>Baby Led Light Ear Cleaner</h3>
+                            <p>No Brand, Color Family:Multicolor</p>
+                            <div class="price-section">
+                                <span class="current-price">Rs. 44</span>
+                                <span class="original-price">Rs. 125</span>
+                            </div>
+                        </div>
+                        <div class="item-actions">
+                            <div class="quantity-controls">
+                                <button>-</button>
+                                <input type="number" value="1" min="1">
+                                <button>+</button>
+                            </div>
+                            <div class="item-buttons">
+                                <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                                <button class="delete-btn"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+
+                <div class="store-section">
+                    <div class="store-header">
+                     
+                    </div>
+
+                    <!-- Cart Item -->
+                    <div class="cart-item">
+                        <input type="checkbox">
+                        <img src="image/photo13.png" alt="Baby Led Light Ear Cleaner">
+                        <div class="item-details">
+                            <h3>Baby Led Light Ear Cleaner</h3>
+                            <p>No Brand, Color Family:Multicolor</p>
+                            <div class="price-section">
+                                <span class="current-price">Rs. 44</span>
+                                <span class="original-price">Rs. 125</span>
+                            </div>
+                        </div>
+                        <div class="item-actions">
+                            <div class="quantity-controls">
+                                <button>-</button>
+                                <input type="number" value="1" min="1">
+                                <button>+</button>
+                            </div>
+                            <div class="item-buttons">
+                                <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                                <button class="delete-btn"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+
+                <div class="store-section">
+                    <div class="store-header">
+                       
+                    </div>
+
+                   
+                    <div class="cart-item">
+                        <input type="checkbox">
+                        <img src="image/photo11.png" alt="Baby Led Light Ear Cleaner">
+                        <div class="item-details">
+                            <h3>Baby Led Light Ear Cleaner</h3>
+                            <p>No Brand, Color Family:Multicolor</p>
+                            <div class="price-section">
+                                <span class="current-price">Rs. 44</span>
+                                <span class="original-price">Rs. 125</span>
+                            </div>
+                        </div>
+                        <div class="item-actions">
+                            <div class="quantity-controls">
+                                <button>-</button>
+                                <input type="number" value="1" min="1">
+                                <button>+</button>
+                            </div>
+                            <div class="item-buttons">
+                                <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                                <button class="delete-btn"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+
+            <!-- Order Summary -->
+            <div class="order-summary">
+                <div class="location-section">
+                    <h2>Location</h2>
+                    <button class="add-address-btn">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Add Shipping Address
+                    </button>
+                </div>
+
+                <div class="summary-details">
+                    <h2>Order Summary</h2>
+                    <div class="summary-row">
+                        <span>Subtotal (0 items)</span>
+                        <span>Rs. 0</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Shipping Fee</span>
+                        <span>Rs. 0</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Total</span>
+                        <span>Rs. 0</span>
+                    </div>
+                </div>
+                <a href="form.html">
+                <div class="payment-section">
+                    <div class="payment-method">
+                        <i class="fas fa-credit-card"></i>
+                        <span>Credit/Debit Card</span>
+                    </div>
+                    <button class="checkout-btn">PROCEED TO CHECKOUT(0)</button>
+                </div>
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
